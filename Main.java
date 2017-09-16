@@ -195,7 +195,7 @@ public class Main {
 
     public static void main(String[] args){
 
-        BufferedReader reader = getFile("out/production/PerceptronJava/points.txt");
+        BufferedReader reader = getFile("points.txt");
 
         Vector<Vector<Float>> trainingSet = getPoints(reader); // Perceptron training set
 
